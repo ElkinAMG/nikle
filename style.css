@@ -6,11 +6,41 @@ main{
     text-align: center;
 }
 
+form{
+    background-attachment: fixed;
+}
+
 #num{
     font-family: fantasy; 
     font-size: 80px;
     align-content: center;
     margin: 80px auto;
+}
+
+#color1{
+    padding: 3px 1px;
+    color: cadetblue;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bold;
+    background-color: azure;
+    border: 0px white;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#color1:hover{
+    color: darkturquoise;
+    padding: 5px 3px;
+    background-color: ghostwhite;
+    box-shadow: -5px 10px 10px gray;
+}
+
+#color1:active{
+    box-shadow: -10px 20px 20px aquamarine;
+    transition: box-shadow 0.3s;
+    color: cadetblue;
 }
 
 #sub{
@@ -39,3 +69,30 @@ main{
     box-shadow: 20px 20px 20px aquamarine;
     transition: box-shadow 0.3s;
     color: cadetblue;
+}
+
+#color2{
+    padding: 3px 1px;
+    color: cadetblue;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bold;
+    background-color: azure;
+    border: 0px white;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#color2:hover{
+    color: darkturquoise;
+    padding: 5px 3px;
+    background-color: ghostwhite;
+    box-shadow: 5px 10px 10px gray;
+}
+
+#color2:active{
+    box-shadow: 10px 20px 20px aquamarine;
+    transition: box-shadow 0.3s;
+    color: cadetblue;
+}
